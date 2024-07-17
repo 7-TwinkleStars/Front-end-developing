@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="clock">
+        <div class="face">
+            <div class="numbers">
+                <div class="number" style="transform: rotate(30deg) translate(85px);"><div style="transform: rotate(60deg);">1</div></div>
+                <div class="number" style="transform: rotate(60deg) translate(85px);"><div style="transform: rotate(30deg);">2</div></div>
+                <div class="number" style="transform: rotate(90deg) translate(85px);"><div style="transform: rotate(10deg);">3</div></div>
+                <div class="number" style="transform: rotate(120deg) translate(85px);"><div style="transform: rotate(-20deg);">4</div></div>
+                <div class="number" style="transform: rotate(150deg) translate(85px);"><div style="transform: rotate(-60deg);">5</div></div>
+                <div class="number" style="transform: rotate(180deg) translate(85px);"><div style="transform: rotate(270deg);">6</div></div>
+                <div class="number" style="transform: rotate(210deg) translate(85px);"><div style="transform: rotate(-120deg);">7</div></div>
+                <div class="number" style="transform: rotate(240deg) translate(85px);"><div style="transform: rotate(-160deg);">8</div></div>
+                <div class="number" style="transform: rotate(270deg) translate(85px);"><div style="transform: rotate(-180deg);">9</div></div>
+                <div class="number" style="transform: rotate(300deg) translate(85px);"><div style="transform: rotate(-210deg);">10</div></div>
+                <div class="number" style="transform: rotate(330deg) translate(85px);"><div style="transform: rotate(-240deg);">11</div></div>
+                <div class="number" style="transform: rotate(0deg) translate(85px);"><div style="transform: rotate(90deg);">12</div></div>
+            </div>
+            <div class="hand hour"></div>
+            <div class="hand minute"></div>
+            <div class="hand second"></div>
+        </div>
+        <div class="info">
+            <span class="blue" id="hour">00</span>
+            <span class="green" id="minute">00</span>
+            <span class="yellow" id="second">00</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
